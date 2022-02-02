@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Need to convert this to JSS */
+input[type=file]::file-selector-button {
+  border: none;
+  padding: .5em .8em;
+  background-color: rgba(108, 122, 137, 1);
+  transition: .5s;
+  color: rgba(210, 215, 211, 1);
+  font-size: 16px;
+  font-weight: 800;
+}
+
+input[type=file]::file-selector-button:hover {
+  background-color: rgba(108, 122, 137, .5);
+  border: none;
+  color: rgba(108, 122, 137, 1);
+}
+
+button[type=submit] {
+  border: none;
+  padding: .5em .8em;
+  background-color: rgba(108, 122, 137, 1);
+  transition: .5s;
+  color: rgba(210, 215, 211, 1);
+  font-size: 16px;
+  font-weight: 800;
+}
+
+button[type=submit]:hover {
+  background-color: rgba(108, 122, 137, .5);
+  border: none;
+  color: rgba(108, 122, 137, 1);
+}
